@@ -41,7 +41,7 @@ public class Customer {
         ArrayList<Artwork> stock = gallery.getStock();
 
             for (Artwork i : stock) {
-                if (i.getTitle().equals(artwork.getTitle()){
+                if (i.getTitle().equals(artwork.getTitle())){
                     wallet -= i.getPrice();
                     int till = gallery.getTill();
                     till += artwork.getPrice();
